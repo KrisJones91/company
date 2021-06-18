@@ -11,7 +11,12 @@ namespace company
             Mike.Break();
 
             Boss Kris = new Boss("Lambo", "Jones", "Kris", 1000000);
+            Kris.Lead();
 
+
+            Trainee Robert = new Trainee(32, 9, "Gumeny", "Robert", 100);
+            Robert.Learn();
+            Robert.Work();
             Console.ReadKey();
 
         
