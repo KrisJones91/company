@@ -4,15 +4,17 @@ namespace company
 {
     class Employee
     {
-        public string Name {get; set;}
+        public string LastName {get; set;}
         public string FirstName {get; set;}
         public int Salary {get; set;}
-        public Employee(string name, string firstName, int salary)
+        public Employee(string firstName, string lastName, int salary)
         {
-            this.Name = name;
+            this.LastName = lastName;
             this.FirstName = firstName;
             this.Salary = salary;
         }
+        
+        public Employee(){}
 
         public void Work()
         {
