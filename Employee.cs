@@ -14,7 +14,7 @@ namespace company
             this.Salary = salary;
         }
         
-        public Employee(){}
+        // public Employee(){}
 
         public void Work()
         {
